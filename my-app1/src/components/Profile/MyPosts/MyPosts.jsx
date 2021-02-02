@@ -3,7 +3,7 @@ import b from './MyPost.module.css';
 import Post from './Post/Post.jsx'
 const MyPost = (props) =>{
     return(
-        <div>
+        <div className={b.postsBlock}>
  <div className={b.item}>
    <a>My post</a> 
     </div>
